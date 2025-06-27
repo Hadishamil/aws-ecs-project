@@ -20,7 +20,7 @@ This repository contains Terraform code for a three-tier web application on AWS,
                   |
                   +-----> [S3 State] <--> [Terraform] <--> [DynamoDB Locks]
 ```
-
+![diagram](image-1.png)
 ## Terraform Code
 - Defines VPC, subnets, S3 (static/website), CloudFront, Route 53, ALB, WAF, ECS, ElastiCache, RDS, and state management.
 
